@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+
+		.row: :after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		[class*="col-"] {
+			float:left;
+			padding:15px;}
+
+/*for mobile*/
+		@media only screen and (max-width: 767px) {
+             [class*="col-"] {
+        
+        width: 100%;
+        }
+		}  
+
+/*for tablet*/
+		@media only screen and (min-width: 768px) {
+           	[class*="col-s-"]{
+			float: left;
+			padding: 25px;}
+
+			.col-s-1 {width: 8.33%;}
+			.col-s-2 {width: 16.66%;}
+			.col-s-3 {width: 25%;}
+			.col-s-4 {width: 33.33%;}
+			.col-s-5 {width: 41.66%;}
+			.col-s-6 {width: 50%;}
+			.col-s-7 {width: 58.33%;}
+			.col-s-8 {width: 66.66%;}
+			.col-s-9 {width: 75%;}
+			.col-s-10 {width: 83.33%;}
+			.col-s-11 {width: 91.66%;}
+			.col-s-12 {width: 100%;}}
+
+/*for desktop*/
+    @media only screen and (min-width: 1024px){
+		.col-1 {width: 8.33%}
+		.col-2 {width: 16.66%}
+		.col-3 {width: 25%}
+		.col-4 {width: 33.33%}
+		.col-5 {width: 41.66%}
+		.col-6 {width: 50%}
+		.col-7 {width: 58.33%}
+		.col-8 {width: 66.66%}
+		.col-9 {width: 75%}
+		.col-10 {width: 83.33%}
+		.col-11 {width: 91.66%}
+		.col-12 {width: 100%}
+	}
+		html {
+			font-family: "Lucinda Sans", sans-serif;
+		}
+.header {
+			background-color: #809D3C;
+			color: white;
+			padding: 15px;
+		}
+		.menu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+a {
+	text-decoration: none;
+color: white;}
+	
+		.menu li {
+			padding: 8px;
+			margin-bottom: 7px;
+			background-color: #809D3C;
+			color:#ffffff;
+			box-shadow: 0 1px 3px rgba(0,0,0,0.12) 0 1px 2px rgba(0,0,0,0.24);
+		}
+		.menu li:hoover {
+			background-color: #809D3C;
+		}
+
+		body {
+			background-color: 
+#F4FFC3;
+		}
+}
+
+
+		
+    </style>
+</head>
+<body>
+	<div class="header">
+		<h1>Gas Laws SIP Group 4</h1>
+	</div>
+	<div class="row">
+		<div class="col-4 col-s-3 menu">
+			<ul>
+				<li><a href="CompSci_PT.html">Home</a></li>
+				<li><a href="boyleslaw.html">Boyle's Law</a></li>
+				<li><a href="charleslaw.html">Charles's Law</a></li>
+				<li><a href="avogradoslaw.html">Avogrado's Law</a>
+			</ul>
+		</div>
+		<div class="col-4 col-s-9">
+			<h1>Gay-Lussac's Law</h1>
+			<img src="GayLussacs_law.png" alt="Gay-Lussac's Law" style="max-width: 100%; height: auto;">
+			Gay-Lussac's Law states that the pressure of a given mass of gas varies directly with the absolute temperature of the gas, when the volume is kept constant. Gay-Lussac's Law is very similar to Charles's Law, with the only difference being the type of container. Whereas the container in a Charles's Law experiment is flexible, it is rigid in a Gay-Lussac's Law experiment. In other words, <u>as the pressure of gas increases, its temperature increases. Assuming constant mass and Volume.</u>
+
+
+
+	<h2>History and background</h2>
+	The French chemist <u><b>Joseph Gay-Lussac</u></b> (1778-1850) discovered the relationship between the pressure of a gas and its absolute temperature.
+
+	<h3>Formula</h3>
+	<img src="Formula.jpg" alt="Formula" style="max-width:100%; height:auto;">
+
+
+
+			<p></p>
+		
+		</div>
+		<div class="col-s-12 col-4">
+			<h1>Example problem:</h1>
+			A gas has a pressure of 14.7 psi at a temperature of 225k, what is the new temperature if the pressure rises to 16 psi
+
+			<h2>Given:</h2>
+			<p>p1= 14.7psi</p>
+<p>p2= 16psi</p>
+<p>t1=225k</p>
+<p>t2= ?</p>
+
+<h3>Formula:</h3>
+p1/t1 = p2/t2
+<h4>Solution:</h4>
+<p>(14.7psi)/(225k) = (16psi)/(x)</p>
+
+<p>(14.7psi)(x) = (16psi)(225k)</p>
+
+<p>14.7x = 3600</p>
+
+<p>3600/14.7psi = 244.9k</p>
+<p>t2 = 244.9k</p>
+<h3>Final answer:</h3>
+The new temperature is now 244.9k
+</div>
+			
+
+
+</body>
+</html>

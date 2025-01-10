@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+
+		.row: :after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		[class*="col-"] {
+			float:left;
+			padding:15px;}
+
+/*for mobile*/
+		@media only screen and (max-width: 767px) {
+             [class*="col-"] {
+        
+        width: 100%;
+        }
+		}  
+
+/*for tablet*/
+		@media only screen and (min-width: 768px) {
+           	[class*="col-s-"]{
+			float: left;
+			padding: 25px;}
+
+			.col-s-1 {width: 8.33%;}
+			.col-s-2 {width: 16.66%;}
+			.col-s-3 {width: 25%;}
+			.col-s-4 {width: 33.33%;}
+			.col-s-5 {width: 41.66%;}
+			.col-s-6 {width: 50%;}
+			.col-s-7 {width: 58.33%;}
+			.col-s-8 {width: 66.66%;}
+			.col-s-9 {width: 75%;}
+			.col-s-10 {width: 83.33%;}
+			.col-s-11 {width: 91.66%;}
+			.col-s-12 {width: 100%;}}
+
+/*for desktop*/
+    @media only screen and (min-width: 1024px){
+		.col-1 {width: 8.33%}
+		.col-2 {width: 16.66%}
+		.col-3 {width: 25%}
+		.col-4 {width: 33.33%}
+		.col-5 {width: 41.66%}
+		.col-6 {width: 50%}
+		.col-7 {width: 58.33%}
+		.col-8 {width: 66.66%}
+		.col-9 {width: 75%}
+		.col-10 {width: 83.33%}
+		.col-11 {width: 91.66%}
+		.col-12 {width: 100%}
+	}
+		html {
+			font-family: "Lucinda Sans", sans-serif;
+		}
+	.header {
+			background-color: #809D3C;
+			color: white;
+			padding: 15px;
+		}
+		.menu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+a {
+	text-decoration: none;
+color: white;}
+	
+		.menu li {
+			padding: 8px;
+			margin-bottom: 7px;
+			background-color: #809D3C;
+			color:#ffffff;
+			box-shadow: 0 1px 3px rgba(0,0,0,0.12) 0 1px 2px rgba(0,0,0,0.24);
+		}
+		.menu li:hoover {
+			background-color: #809D3C;
+		}
+
+		body {
+			background-color: 
+#F4FFC3;
+		}
+
+
+		
+    </style>
+</head>
+<body>
+	<div class="header">
+		<h1>Gas Laws SIP Group 4</h1>
+	</div>
+	<div class="row">
+		<div class="col-4 col-s-3 menu">
+			<ul>
+				<li><a href="CompSci_PT.html">Home</a></li>
+				<li><a href="boyleslaw.html">Boyle's Law</a></li>
+				<li><a href="charleslaw.html">Charles's Law</a></li>
+				<li><a href="gaylussacslaw.html">Gay-Lussac's Law</a>
+			</ul>
+		</div>
+		<div class="col-4 col-s-9">
+			<h1>Avogrado's Law</h1>
+			<img src="avogadros_law.png" alt="Avogrado's Law" style="max-width: 100%; height: auto;">
+			
+			<p>Avogadro’s law states that under the same conditions of temperature and pressure, equal volumes of different gases contain an equal number of molecules. This empirical relation can be derived from the kinetic theory of gases under the assumption of a perfect (ideal) gas. The law is approximately valid for real gases at sufficiently low pressures and high temperatures.</p>
+			<h1>History and Background</h1>	
+			<p>The law was first proposed in 1811 by Amedeo Avogadro, a professor of higher physics at the University of Turin for many years, but it was not generally accepted until after 1858, when an Italian chemist, Stanislao Cannizzaro, constructed a logical system of chemistry based on it. 
+
+			<br> <h1> Formula: </h1> 
+			<img src="avogadros_law_formula.png" alt="Avogadro's Law Formula" style="max-width:100%; height:auto;">
+		
+		</div>
+		<div class="col-s-12 col-4">
+			<h1>Example:</h1>
+			
+<p>5.00 L of a gas is known to contain 0.965 mol. If the amount of gas is increased to 1.80 mol, what new volume will result (at an unchanged temperature and pressure)?</p>
+<p><b>Given:</b> v1 = 5.00L n1 = 0.965 mol. v2 = ? n2 = 1.80 mol </p>
+
+<p><B>Solution:</B>
+ V1n2 = V2n1
+(5.00 L) (1.80 mol) = (x) (0.965 mol)
+x = 9.33 L (to three sig figs)</p>
+<p><b>Final Answer:</b> The new volume is 9.33L
+
+</body>
+</html>
